@@ -194,7 +194,7 @@ const Hero = () => {
                   e.currentTarget.style.boxShadow = '0 0 20px rgba(255, 0, 0, 0.1)';
                 }}
               >
-                <social.icon className="w-6 h-6 text-gray-400 group-hover:text-red-600 transition-colors" />
+                <social.icon className="h-3 w-3 md:w-6 md:h-6 text-gray-400 group-hover:text-red-600 transition-colors" />
               </div>
             </motion.a>
           ))}

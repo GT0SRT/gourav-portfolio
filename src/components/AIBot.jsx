@@ -161,7 +161,7 @@ const AIBot = () => {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.8, y: 20 }}
             transition={{ duration: 0.3 }}
-            className="absolute bottom-20 right-0 md:w-96 bg-black/95 backdrop-blur-lg rounded-2xl border-2 shadow-2xl overflow-hidden flex flex-col"
+            className="absolute bottom-20 right-0 w-[90vw] md:w-96 bg-black/95 backdrop-blur-lg rounded-2xl border-2 shadow-2xl overflow-hidden flex flex-col"
             style={{ borderColor: 'rgba(255, 0, 0, 0.3)', height: '70vh' }}
           >
             {/* Header */}
