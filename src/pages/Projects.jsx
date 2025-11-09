@@ -6,7 +6,7 @@ import React, {
   useRef,
 } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
-import { client } from '../components/client';
+import { client, urlFor } from '../components/client';
 
 const CursorContext = createContext();
 const CursorProvider = ({ children }) => {
@@ -89,6 +89,11 @@ const ProjectCard = ({ project, isFirst }) => {
   return (
     // Outer wrapper for scroll spacing
     <div ref={ref} className="h-screen">
+      <a
+        href={project.link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
       {/* Inner sticky container */}
       <motion.div
         className="sticky top-0 flex h-screen w-full items-center justify-center overflow-hidden"
@@ -112,6 +117,7 @@ const ProjectCard = ({ project, isFirst }) => {
           </p>
         </div>
       </motion.div>
+      </a>
     </div>
   );
 };
