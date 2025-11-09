@@ -3,45 +3,6 @@ import { motion, useAnimationControls } from 'framer-motion';
 import { Star, Quote } from 'lucide-react';
 import { client } from '../components/client';
 
-// const reviews = [
-//   {
-//     id: 1,
-//     name: "Rajesh Kumar",
-//     role: "Senior Developer",
-//     company: "Tech Solutions Inc.",
-//     review: "Gourav is an exceptional problem solver with a deep understanding of algorithms. His dedication and passion for coding are truly impressive.",
-//     rating: 5,
-//     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Rajesh"
-//   },
-//   {
-//     id: 2,
-//     name: "Priya Sharma",
-//     role: "Project Manager",
-//     company: "Digital Innovations",
-//     review: "Working with Gourav was a great experience. He delivers quality work on time and has excellent communication skills.",
-//     rating: 5,
-//     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya"
-//   },
-//   {
-//     id: 3,
-//     name: "Amit Patel",
-//     role: "Tech Lead",
-//     company: "StartupHub",
-//     review: "Gourav's ability to quickly learn new technologies and apply them effectively is remarkable. A valuable asset to any team.",
-//     rating: 5,
-//     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Amit"
-//   },
-//   {
-//     id: 4,
-//     name: "Sneha Reddy",
-//     role: "Frontend Developer",
-//     company: "WebCraft Studios",
-//     review: "Gourav has a keen eye for detail and creates beautiful, functional user interfaces. His code is clean and well-structured.",
-//     rating: 5,
-//     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sneha"
-//   }
-// ];
-
 const Reviews = () => {
   const controls = useAnimationControls();
   useEffect(() => {
