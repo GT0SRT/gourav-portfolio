@@ -232,9 +232,9 @@ const AIBot = () => {
               </div>
             </div>
 
-            {/* Input Form (Unchanged) */}
+            {/* Input Form */}
             <form onSubmit={handleSubmit} className="p-4 border-t bg-white/5 flex-shrink-0" style={{ borderColor: 'rgba(255, 0, 0, 0.2)' }}>
-              <div className="flex gap-2">
+              <div className="flex gap-2 w-[80vw]">
                 <input
                   type="text"
                   placeholder="Ask me anything, type here.."
