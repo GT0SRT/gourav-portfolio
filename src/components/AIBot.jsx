@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageCircle, X, Send, Bot } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
-import { model } from "../Components/firebase"; 
+import { model } from "../components/firebase"; 
 
 // --- PlaceholderUI (Unchanged) ---
 const PlaceholderUI = () => {
