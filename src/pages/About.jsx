@@ -72,7 +72,7 @@ const About = () => {
               <div className="max-w-3xl mt-5 mx-auto bg-white/5 backdrop-blur-lg rounded-2xl border border-red-600/20 p-8">
                 <p className="text-lg text-gray-300 leading-relaxed"
                 >
-                  I'm <span className='text-2xl font-bold'> Gourav Makode </span>, Currently a student passionate about software development and problem-solving.
+                  Myself <span className='text-2xl font-bold'> Gourav Makode </span>, Currently a student passionate about software development and problem-solving.
                   Building innovative solutions with modern technologies.
                 </p>
                 {/* mathy pattern */}
