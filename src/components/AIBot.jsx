@@ -241,13 +241,13 @@ const AIBot = () => {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   disabled={isLoading}
-                  className="flex-1 bg-white/10 border rounded-lg px-4 py-2 text-white placeholder-gray-500 focus:outline-none transition-colors"
+                  className="flex-1 text-sm bg-white/10 border rounded-lg px-4 py-2 text-white placeholder-gray-500 focus:outline-none transition-colors"
                   style={{ borderColor: 'rgba(255, 0,0, 0.3)' }}
                 />
                 <button
                   type="submit"
                   disabled={isLoading}
-                  className="w-10 h-10 rounded-lg flex items-center justify-center disabled:opacity-50"
+                  className="w-10 h-10 rounded-lg flex items-center justify-center disabled:opacity-50 flex-shrink-0"
                   style={{ background: 'linear-gradient(135deg, #dc2626 0%, #b91c1c 100%)' }}
                 >
                   <Send className="w-4 h-4 text-black" />
